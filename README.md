@@ -70,8 +70,9 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 *List of parsers*
 
 - [**Chomp**](https://github.com/m4rw3r/chomp) - A fast monadic-style parser combinator.
-- [**Combine**](https://github.com/Marwes/combine) - parser combinator library.[**lady-deirdre**](https://github.com/Eliah-Lakhin/lady-deirdre) - A framework for new programming languages and LSP servers.
+- [**Combine**](https://github.com/Marwes/combine) - parser combinator library.
 - [**grmtools**](https://github.com/softdevteam/grmtools/) - A LR parser with better error correction.
+- [**lady-deirdre**](https://github.com/Eliah-Lakhin/lady-deirdre) - A framework for new programming languages and LSP servers.
 - [**LALRPOP**](https://github.com/lalrpop/lalrpop) - LR(1) parser generator.
 - [**Nom**](https://github.com/rust-bakery/nom) - parser combinator library.
 - [**Oak**](https://github.com/ptal/oak) - A typed PEG parser generator (compiler plugin).
