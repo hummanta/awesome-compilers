@@ -47,6 +47,50 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [**Valgrind**](http://valgrind.org/) - A tool for memory debugging, memory leak detection, and profiling.
 - [**x64dbg**](http://x64dbg.com/) - An open-source x64/x32 debugger for windows.
 
+## Rust
+
+> Organising and assembling parts content from [Awesome Rust](https://github.com/rust-unofficial/awesome-rust), for more details visit their project homepage. [CC0-1.0 license](https://github.com/rust-unofficial/awesome-rust?tab=readme-ov-file#CC0-1.0-1-ov-file)
+
+*List of Rust compilers*
+
+- [**rustc**](https://github.com/rust-lang/rust/tree/master/compiler) - Rust compiler.
+- [**rust-analyzer**](https://github.com/rust-lang/rust-analyzer) - A Rust compiler front-end for IDEs.
+- [**rustc_codegen_c**](https://github.com/rust-lang/rustc_codegen_c) - This a C codegen backend for rustc, which lowers Rust MIR to C code and compiles it with a C compiler.
+- [**rustc_codegen_cranelift**](https://github.com/rust-lang/rustc_codegen_cranelift) - create an alternative codegen backend for the rust compiler based on [Cranelift](https://github.com/bytecodealliance/wasmtime/blob/main/cranelift).
+- [**rustc_codegen_gcc**](https://github.com/rust-lang/rustc_codegen_gcc) - libgccjit AOT codegen for rustc, loaded by the existing rustc frontend, but benefits from GCC.
+- [**rust-lang/llvm-project**](https://github.com/rust-lang/llvm-project) - Rust-specific fork of LLVM.
+- [**rust-playground**](https://github.com/rust-lang/rust-playground) - Allows you to experiment with Rust before you install it locally.
+
+*List of Rust debuggers*
+
+- [**CodeLLDB**](https://github.com/vadimcn/codelldb) - A native debugger extension for VSCode based on LLDB.
+- [**gdbgui**](https://github.com/cs01/gdbgui) - Browser based frontend for gdb to debug C, C++, Rust, and go.
+- [**Tracexec**](https://github.com/kxxt/tracexec)  - Tracer for execve{,at} and pre-exec behavior, launcher for debuggers.
+
+*List of parsers*
+
+- [**Chomp**](https://github.com/m4rw3r/chomp) - A fast monadic-style parser combinator.
+- [**Combine**](https://github.com/Marwes/combine) - parser combinator library.[**lady-deirdre**](https://github.com/Eliah-Lakhin/lady-deirdre) - A framework for new programming languages and LSP servers.
+- [**grmtools**](https://github.com/softdevteam/grmtools/) - A LR parser with better error correction.
+- [**LALRPOP**](https://github.com/lalrpop/lalrpop) - LR(1) parser generator.
+- [**Nom**](https://github.com/rust-bakery/nom) - parser combinator library.
+- [**Oak**](https://github.com/ptal/oak) - A typed PEG parser generator (compiler plugin).
+- [**Pest**](https://github.com/pest-parser/pest) - The Elegant Parser.
+- [**rust-peg**](https://github.com/kevinmehall/rust-peg) - Parsing Expression Grammar (PEG) parser generator.
+- [**Tree-Sitter**](https://github.com/tree-sitter/tree-sitter) - A parser generator tool and an incremental parsing library geared towards programming tools.
+
+*Static analysis*
+
+- [**MIRAI**](https://github.com/endorlabs/mirai) - an abstract interpreter operating on Rust's mid-level intermediate representation (MIR) 
+- [**static_assertions**](https://crates.io/crates/static_assertions) - Compile-time assertions to ensure that invariants are met
+- [**verus**](https://github.com/verus-lang/verus) - Verified Rust for low-level systems code
+
+*List of transpilers*
+
+- [**m2cgen**](https://github.com/BayesWitnesses/m2cgen) - A CLI tool to transpile trained classic machine learning models into a native Rust code with zero dependencies.
+- [**c2rust**](https://github.com/immunant/c2rust) - C to Rust translator and cross checker built atop Clang/LLVM.
+- [**Corrode**](https://github.com/jameysharp/corrode) - A C to Rust translator written in Haskell.
+
 
 
 ## Contributing
