@@ -46,3 +46,11 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [**Metashell**](https://metashell.readthedocs.org/) - An interactive template metaprogramming shell which includes the MDB metadebugger.
 - [**Valgrind**](http://valgrind.org/) - A tool for memory debugging, memory leak detection, and profiling.
 - [**x64dbg**](http://x64dbg.com/) - An open-source x64/x32 debugger for windows.
+
+
+
+## Contributing
+
+Please take a quick gander at the [contribution guidelines](https://github.com/hummanta/awesome-compilers/blob/main/CONTRIBUTING.md) for details. Thanks to all [contributors](https://github.com/hummanta/awesome-compilers/graphs/contributors); you rock!
+
+***If you see a project or link here that is no longer maintained or is not a good fit, please submit a pull request to improve this document. Thank you!***
