@@ -15,6 +15,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [PCC](https://github.com/IanHarvey/pcc) - A very old C compiler. Supports C99.
 - [AMD C++ Compiler](https://www.amd.com/en/developer/aocc.html) - Developed by AMD.
 - [Intel C++ Compiler](https://software.intel.com/en-us/c-compilers) - Developed by Intel.
+- [Intel SPMD](http://ispc.github.io/) - Compiler for a variant of the C language, for single program, multiple data programming.
 - [lcc](https://github.com/drh/lcc) - The lcc retargetable ANSI C compiler.
 - [LLVM](http://llvm.org/) - Collection of modular and reusable compiler and toolchain technologies.
 - [Microsoft Visual C++](https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp?view=msvc-160) - MSVC, developed by Microsoft.
@@ -46,6 +47,42 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [Metashell](https://metashell.readthedocs.org/) - An interactive template metaprogramming shell which includes the MDB metadebugger.
 - [Valgrind](http://valgrind.org/) - A tool for memory debugging, memory leak detection, and profiling.
 - [x64dbg](http://x64dbg.com/) - An open-source x64/x32 debugger for windows.
+
+## Python
+
+> Organising and assembling parts content from [Awesome Python](https://github.com/vinta/awesome-python), for more details visit their project homepage. [CC BY 4.0 license](https://github.com/vinta/awesome-python?tab=License-1-ov-file#readme)
+
+*Implementations of Python*
+
+- [cpython](https://github.com/python/cpython) - Default, most widely used implementation of the Python programming language written in C.
+- [cython](https://github.com/cython/cython) - Optimizing Static Compiler for Python.
+- [clpython](https://github.com/metawilm/cl-python) - Implementation of the Python programming language written in Common Lisp.
+- [ironpython](https://github.com/IronLanguages/ironpython3) - Implementation of the Python programming language written in C#.
+- [micropython](https://github.com/micropython/micropython) - A lean and efficient Python programming language implementation.
+- [numba](https://github.com/numba/numba) - Python JIT compiler to LLVM aimed at scientific Python.
+- [peachpy](https://github.com/Maratyszcza/PeachPy) - x86-64 assembler embedded in Python.
+- [pypy](https://foss.heptapod.net/pypy/pypy) - A very fast and compliant implementation of the Python language.
+- [pyston](https://github.com/pyston/pyston/) - A Python implementation using JIT techniques.
+- [RustPython](https://github.com/RustPython/RustPython) - A Python Interpreter written in Rust.
+
+*Interactive Python interpreters (REPL)*
+
+- [bpython](https://github.com/bpython/bpython) - A fancy interface to the Python interpreter.
+- [Jupyter Notebook (IPython)](https://jupyter.org/) - A rich toolkit to help you make the most out of using Python interactively.
+- [ptpython](https://github.com/jonathanslenders/ptpython) - Advanced Python REPL built on top of the [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit).
+
+*List of Python debugging tools*
+
+- [ipdb](https://github.com/gotcha/ipdb) - IPython-enabled [pdb](https://docs.python.org/3/library/pdb.html).
+- [pudb](https://github.com/inducer/pudb) - A full-screen, console-based Python debugger.
+- [manhole](https://github.com/ionelmc/python-manhole) - Debugging UNIX socket connections and present the stacktraces for all threads and an interactive prompt.
+- [python-hunter](https://github.com/ionelmc/python-hunter) - A flexible code tracing toolkit.
+- [py-spy](https://github.com/benfred/py-spy) - A sampling profiler for Python programs. Written in Rust.
+- [vprof](https://github.com/nvdv/vprof) - Visual Python profiler.
+- [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar) - Display various debug information for Django.
+- [flask-debugtoolbar](https://github.com/pallets-eco/flask-debugtoolbar) - A port of the django-debug-toolbar to flask.
+- [icecream](https://github.com/gruns/icecream) - Inspect variables, expressions, and program execution with a single, simple function call.
+- [pyelftools](https://github.com/eliben/pyelftools) - Parsing and analyzing ELF files and DWARF debugging information.
 
 ## Rust
 
