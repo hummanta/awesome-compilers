@@ -48,6 +48,72 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [Valgrind](http://valgrind.org/) - A tool for memory debugging, memory leak detection, and profiling.
 - [x64dbg](http://x64dbg.com/) - An open-source x64/x32 debugger for windows.
 
+## Lisp
+
+### Clojure
+
+- [Clojure](https://github.com/clojure/clojure) - The official Clojure compiler, compiles to JVM bytecode.
+- [ClojureScript](https://github.com/clojure/clojurescript) - Compiles to JavaScript, targeting browsers and Node.js.
+- [Babashka](https://github.com/babashka/babashka) - A GraalVM-based Clojure interpreter, optimized for scripting.
+- [Joker](https://github.com/candid82/joker) - A lightweight Clojure interpreter written in Go.
+- [Arcadia](https://github.com/arcadia-unity/Arcadia) - A Clojure implementation for Unity game development.
+
+### Common Lisp
+
+- [ABCL (Armed Bear Common Lisp)](https://abcl.org/) - A Common Lisp implementation for the JVM.
+- [Clasp](https://github.com/clasp-developers/clasp/) - A Common Lisp implementation based on LLVM, interoperable with C++.
+- [CMUCL](https://cmucl.org/) - An early high-performance Common Lisp implementation.
+- [ECL (Embeddable Common Lisp)](https://gitlab.com/embeddable-common-lisp/ecl) - A lightweight implementation that compiles to C code.
+- [LispWorks](https://www.lispworks.com/) - A commercial Common Lisp implementation supporting multiple platforms.
+- [SBCL (Steel Bank Common Lisp)](https://github.com/sbcl/sbcl) - A high-performance JIT compiler based on CMUCL.
+
+### Emacs Lisp
+
+- [Emacs Bytecode Compiler](https://www.gnu.org/software/emacs/manual/elisp.html) - The built-in bytecode compiler for Emacs Lisp.
+- [Native-Comp (gccemacs)](https://github.com/emacs-mirror/emacs/blob/master/etc/NEWS) - A native Emacs Lisp compiler using GCC, improving performance.
+
+### Scheme
+
+- [Bigloo](https://github.com/manuel-serrano/bigloo) - A Scheme compiler that generates C, JVM, and .NET code.
+- [Chicken Scheme](https://www.call-cc.org/) - AOT compiler to C, suitable for embedded development.
+- [Chez Scheme](https://github.com/cisco/ChezScheme) - A high-performance Scheme implementation supporting AOT and JIT.
+- [Gambit](https://gambitscheme.org/) - Compiles Scheme to efficient C code.
+- [Guile](https://www.gnu.org/software/guile/) - The GNU Scheme interpreter and compiler, embeddable in C applications.
+- [Kawa](https://www.gnu.org/software/kawa/) - A Scheme implementation targeting the JVM.
+- [Larceny](https://github.com/larcenists/larceny) - A Scheme compiler with multiple backend targets.
+- [MIT/GNU Scheme](MIT/GNU Scheme) - A classic Scheme compiler.
+- [Racket](https://racket-lang.org/) - A powerful Lisp variant, supporting JIT compilation and DSL creation.
+
+### Other dialects and variants
+
+- [Arc](http://arclanguage.org/) - A Lisp dialect developed by Paul Graham, focused on simplicity and flexibility.
+- [AutoLISP](https://www.autodesk.com/developer-network/platform-technologies/autolisp) - A Lisp dialect integrated into AutoCAD for automating drawing tasks.
+
+- [Carp](https://github.com/carp-lang/Carp) - A statically typed Lisp for system programming, compiles to native code via AOT.
+- [EuLisp](http://eulisp.org/) - A European Lisp dialect aimed at unifying features of Common Lisp and Scheme.
+- [Fennel](https://github.com/bakpakin/Fennel) - A Lisp variant based on Lua, compiling to Lua code, ideal for LuaJIT.
+- [Ferret](https://github.com/racket/ferret) - A Racket-style Scheme variant that supports WebAssembly.
+- [Franz Lisp](https://en.wikipedia.org/wiki/Franz_Lisp) - An early Lisp implementation, historically significant but no longer maintained.
+- [GOAL](https://github.com/open-goal/jak-project) - A Lisp dialect developed by Naughty Dog for PlayStation 2 game development.
+- [Hy](https://github.com/hylang/hy) - A Lisp that compiles directly to Python’s AST for seamless integration with Python.
+- [Interlisp](https://github.com/Interlisp) - An early Lisp dialect with an integrated programming environment, mainly used in Xerox systems.
+- [ISLISP](http://islisp.info/) - A standardized Lisp dialect focused on providing a small yet powerful core language.
+- [Janet](https://github.com/janet-lang/janet) - A lightweight Lisp supporting AOT and JIT compilation, suitable for embedded and scripting.
+- [LeLisp](https://github.com/c-jullien/lelisp) - A Lisp dialect developed in France, mainly used for AI research.
+- [LFE](https://github.com/rvirding/lfe) - A Lisp dialect running on the Erlang VM, combining Lisp macros with Erlang's concurrency model.
+- [Maclisp](https://en.wikipedia.org/wiki/Maclisp) - A Lisp dialect developed at MIT in the 1960s, influential in later Lisp dialects.
+- [MDL](https://en.wikipedia.org/wiki/MDL_(programming_language)) - A Lisp dialect developed at MIT for AI and computer science research.
+- [newLISP](https://www.newlisp.org/) - A lightweight Lisp dialect suited for scripting and general programming tasks.
+- [NIL](https://en.wikipedia.org/wiki/NIL_(programming_language)) - A Lisp implementation developed at MIT for VAX computers, no longer maintained.
+- [PicoLisp](https://picolisp.com/) - A minimal and efficient Lisp dialect suitable for embedded systems and application development.
+- [PSL](https://user.ceng.metu.edu.tr/~ucoluk/research/lisp/generalinfo.html) - A Lisp implementation designed to be portable across multiple hardware and OS platforms.
+- [RPL](https://en.wikipedia.org/wiki/RPL_(programming_language)) - A Lisp dialect developed by Hewlett-Packard for its calculators, using Reverse Polish Notation.
+- [SKILL](https://github.com/jonpry/Pill) - A Lisp dialect developed by Cadence Design Systems for electronic design automation (EDA).
+- [Spice Lisp](https://en.wikipedia.org/wiki/Spice_Lisp) - A Lisp dialect historically used in the development of CMUCL.
+- [T](https://mumble.net/~jar/tproject/) - A Scheme-derived Lisp dialect developed at Yale, designed for high-performance systems programming.
+- [Zetalisp](https://en.wikipedia.org/wiki/Lisp_Machine_Lisp) - A Lisp dialect developed for Lisp Machines, influencing the development of Common Lisp.
+- [Wasp Lisp](https://github.com/wasplang/wasp) - A Scheme-inspired language designed for WebAssembly and frontend development.
+
 ## Python
 
 > Organising and assembling parts content from [Awesome Python](https://github.com/vinta/awesome-python), for more details visit their project homepage. [CC BY 4.0 license](https://github.com/vinta/awesome-python?tab=License-1-ov-file#readme)
