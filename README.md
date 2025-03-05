@@ -89,6 +89,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [Arc](http://arclanguage.org/) - A Lisp dialect developed by Paul Graham, focused on simplicity and flexibility.
 - [AutoLISP](https://www.autodesk.com/developer-network/platform-technologies/autolisp) - A Lisp dialect integrated into AutoCAD for automating drawing tasks.
 - [Carp](https://github.com/carp-lang/Carp) - A statically typed Lisp for system programming, compiles to native code via AOT.
+- [Clarity](https://github.com/clarity-lang) - A Lisp-like smart contract language for Stacks blockchain.
 - [EuLisp](http://eulisp.org/) - A European Lisp dialect aimed at unifying features of Common Lisp and Scheme.
 - [Fennel](https://github.com/bakpakin/Fennel) - A Lisp variant based on Lua, compiling to Lua code, ideal for LuaJIT.
 - [Ferret](https://github.com/racket/ferret) - A Racket-style Scheme variant that supports WebAssembly.
