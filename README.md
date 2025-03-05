@@ -1,6 +1,10 @@
 # awesome-compilers
 An opinionated list of awesome compiler frameworks, libraries, software and resources.
 
+## Contents
+
+[C/C++](#cc) · [Lisp](#lisp) · [Python](#python) · [Rust](#rust)
+
 ##  C/C++
 
 > Inspired by [Awesome C++](https://github.com/fffaraz/awesome-cpp), organised and assembled from the [Compiler section](https://github.com/fffaraz/awesome-cpp?tab=readme-ov-file#compiler), for more details visit their project homepage. [MIT license](https://github.com/fffaraz/awesome-cpp#MIT-1-ov-file)
