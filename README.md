@@ -3,7 +3,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 
 ## Contents
 
-[C/C++](#cc) · [Lisp](#lisp) · [Python](#python) · [Rust](#rust)
+[C/C++](#cc) · [Lisp](#lisp) · [Python](#python) · [Rust](#rust) · [Solidity](#solidity)
 
 ##  C/C++
 
@@ -134,6 +134,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [pypy](https://foss.heptapod.net/pypy/pypy) - A very fast and compliant implementation of the Python language.
 - [pyston](https://github.com/pyston/pyston/) - A Python implementation using JIT techniques.
 - [RustPython](https://github.com/RustPython/RustPython) - A Python Interpreter written in Rust.
+- [Vyper](https://docs.vyperlang.org/) - Vyper is a contract-oriented, pythonic programming language that targets the Ethereum Virtual Machine (EVM).
 
 *Interactive Python interpreters (REPL)*
 
@@ -199,7 +200,40 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [c2rust](https://github.com/immunant/c2rust) - C to Rust translator and cross checker built atop Clang/LLVM.
 - [Corrode](https://github.com/jameysharp/corrode) - A C to Rust translator written in Haskell.
 
+## Solidity
 
+- [aderyn](https://github.com/Cyfrin/aderyn) - Rust-based solidity smart contract static analyzer designed to help find vulnerabilities in Solidity code bases.
+- [charcoal](https://github.com/ourovoros-io/charcoal) - Charcoal is a Solidity-to-Sway translator written in Rust.
+- [era-compiler-solidity](https://github.com/matter-labs/era-compiler-solidity) - ZKsync Compiler Toolchain for Solidity and Yul.
+- [ethdebug](https://github.com/ethdebug/format) - A standard debugging data format for smart contracts on Ethereum-compatible networks.
+- [evmdis](https://github.com/Arachnid/evmdis) - EVM Disassembler that performs static analysis on the bytecode to provide a higher level of abstraction than raw EVM operations.
+- [ocaml-solidity](https://github.com/OCamlPro/ocaml-solidity) - Ocaml-solidity provides a Solidity parser and typechecker.
+- [pyrometer](https://github.com/nascentxyz/pyrometer) - A tool for analyzing the security and parameters of a solidity smart contract.
+- [Remix](https://remix.ethereum.org) - Online realtime compiler and runtime.
+- [revive](https://github.com/paritytech/revive) - Solidity compiler and YUL recompiler to LLVM, targetting RISC-V on PolkaVM.
+- [SIF](https://github.com/chao-peng/SIF) - Solidity code instrumentation and analysis framework.
+- [slang](https://github.com/NomicFoundation/slang) - A modular set of compiler APIs empowering the next generation of Solidity code analysis and developer tooling.
+- [Slither](https://github.com/crytic/slither) - Solidity static analysis framework, a suite of vulnerability detectors, prints visual information about contract details etc.
+- [sol-repl](https://github.com/eagr/sol-repl) - a REPL to provide instant feedback for Solidity snippets.
+- [sol-to-o1js](https://github.com/hummanta/sol-to-o1js) - Solidity Compiler & Transpiler for Mina.
+- [sol2uml](https://www.npmjs.com/package/sol2uml) - Unified Modeling Language (UML) class diagram generator for Solidity contracts.
+- [solana-solidity.js](https://github.com/solana-labs/solana-solidity.js) - Compile, deploy, and use Solidity contracts on Solana.
+- [solang](https://github.com/hyperledger-solang/solang) - Solidity Compiler for Solana, Polkadot and Stellar.
+- [solar](https://github.com/paradigmxyz/solar) - Blazingly fast, modular and contributor friendly Solidity compiler, written in Rust.
+- [solc-js](https://github.com/ethereum/solc-js) - Javascript bindings for the Solidity compiler.
+- [solc](https://github.com/deno-web3/solc) - Solidity compiler bindings for Deno.
+- [solgraph](https://github.com/raineorshine/solgraph) - Visualize control flows for smart contract security analysis.
+- [solhint](https://github.com/protofire/solhint) - Solhint is an open-source project to provide a linting utility for Solidity code.
+- [Solidity Parser for JavaScript](https://github.com/solidity-parser/parser) - A Solidity parser for JS built on top of a robust ANTLR4 grammar.
+- [solidity-parser-antlr](https://github.com/federicobond/solidity-parser-antlr) - A Solidity parser for JS built on top of a robust ANTLR4 grammar.
+- [solidity-repl](https://github.com/raineorshine/solidity-repl) - Ethereum Solidity REPL.
+- [solidity-rs](https://github.com/camden-smallwood/solidity-rs) - Solidity 0.8.X AST parsing and analysis in Rust.
+- [solidity](https://github.com/ethereum/solidity) - Official Compiler for the Solidity Smart Contracts Programming Language.
+- [SOLL](https://github.com/second-state/SOLL) - SOLL is a new compiler for generate Ewasm from solidity and yul.
+- [Soltsice](https://github.com/Soltsice/Soltsice) - Solidity & TypeScript Integration, Configuration and Examples.
+- [sulk](https://github.com/lukehedger/sulk) - Solidity compilation without the tears.
+- [surya](https://github.com/Consensys/surya) - Utility tool for smart contract systems, offering a number of visual outputs and information about the contracts’ structure.
+- [warp](https://github.com/NethermindEth/warp) - Warp is a Solidity to Cairo Compiler, write/migrate Solidity to Cairo for easy onboarding into the StarkNet ecosystem.
 
 ## Contributing
 
