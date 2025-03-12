@@ -3,7 +3,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 
 ## Contents
 
-[C/C++](#cc) · [Javascript](#javascript) · [Lisp](#lisp) · [Python](#python) · [Rust](#rust) · [Solidity](#solidity)
+[C/C++](#cc) · [Javascript](#javascript) · [Lisp](#lisp) · [Python](#python) · [Rust](#rust) · [Solidity](#solidity) · [Typescript](#typescript)
 
 ##  C/C++
 
@@ -292,6 +292,33 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [sulk](https://github.com/lukehedger/sulk) - Solidity compilation without the tears.
 - [surya](https://github.com/Consensys/surya) - Utility tool for smart contract systems, offering a number of visual outputs and information about the contracts’ structure.
 - [warp](https://github.com/NethermindEth/warp) - Warp is a Solidity to Cairo Compiler, write/migrate Solidity to Cairo for easy onboarding into the StarkNet ecosystem.
+
+## TypeScript
+
+*List of Typescript compilers*
+
+- [TypeScript Compiler (tsc)](https://www.typescriptlang.org/) - The official TypeScript compiler that transpiles TS to JS with type checking.
+- [TypeScript Go](https://github.com/microsoft/typescript-go) - A Go implementation of the TypeScript compiler.
+
+*List of Typescript parsers*
+
+- [TypeScript Compiler API](https://github.com/microsoft/TypeScript/wiki/Using-the-Compiler-API) - Official TypeScript AST and parsing tools.
+- [swc parser](https://swc.rs/) - A superfast TypeScript parser written in Rust.
+
+*List of Typescript syntax libraries*
+
+- [Prettier](https://prettier.io/) - Code formatter for TypeScript.
+- [ts-morph](https://github.com/dsherret/ts-morph) - TypeScript AST manipulation library based on the TypeScript Compiler API.
+
+*List of Typescript debuggers*
+
+- [VS Code Debugger](https://code.visualstudio.com/docs/nodejs/debugging) - Built-in TypeScript debugging support in VS Code.
+- [WebStorm Debugger](https://www.jetbrains.com/webstorm/) - Advanced TypeScript debugging tools in WebStorm.
+
+*List of TypeScript variants*
+
+- [AssemblyScript](https://www.assemblyscript.org/) - A TypeScript-like language for WebAssembly.
+- [ReScript](https://github.com/rescript-lang/rescript) - ReScript is a robustly typed language that compiles to efficient and human-readable JavaScript.
 
 ## Contributing
 
