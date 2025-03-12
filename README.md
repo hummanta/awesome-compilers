@@ -3,7 +3,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 
 ## Contents
 
-[C/C++](#cc) · [Lisp](#lisp) · [Python](#python) · [Rust](#rust) · [Solidity](#solidity)
+[C/C++](#cc) · [Javascript](#javascript) · [Lisp](#lisp) · [Python](#python) · [Rust](#rust) · [Solidity](#solidity)
 
 ##  C/C++
 
@@ -51,6 +51,64 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [Metashell](https://metashell.readthedocs.org/) - An interactive template metaprogramming shell which includes the MDB metadebugger.
 - [Valgrind](http://valgrind.org/) - A tool for memory debugging, memory leak detection, and profiling.
 - [x64dbg](http://x64dbg.com/) - An open-source x64/x32 debugger for windows.
+
+## JavaScript
+
+*List of JavaScript compilers*
+
+- [GraalJS](https://github.com/oracle/graaljs) - JavaScript engine in GraalVM, allowing interoperability with JVM.
+- [Hermes](https://hermesengine.dev/) - AOT JavaScript compiler by Meta, optimized for React Native.
+- [JavaScriptCore (JSC)](https://webkit.org/) - JavaScript engine for WebKit, used in Safari.
+- [QuickJS](https://github.com/bellard/quickjs) - Lightweight JavaScript engine supporting ES2020, suitable for embedded use.
+- [SpiderMonkey](https://spidermonkey.dev/) - Mozilla’s JS engine, featuring Baseline and IonMonkey JIT.
+- [swc](https://swc.rs/) - A super fast JavaScript compiler written in Rust, significantly faster than Babel.
+- [V8](https://v8.dev/) - Google Chrome and Node.js JavaScript engine with JIT compilation.
+
+*List of JavaScript transpilers*
+
+- [Babel](https://babel.dev/) - Transpiles modern JavaScript into ES5 for compatibility.
+- [esbuild](https://github.com/evanw/esbuild) - A high-speed JavaScript bundler and compiler with tree-shaking and minification.
+- [sucrase](https://github.com/alangpierce/sucrase) - A fast JavaScript transpiler optimized for development.
+- [traceur-compiler](https://github.com/google/traceur-compiler) - Traceur is a JavaScript.next-to-JavaScript-of-today compiler.
+
+*List of Javascript interpreters*
+
+- [Deno](https://deno.land/) - A modern JavaScript runtime, built on V8, with enhanced security.
+- [Duktape](https://duktape.org/) - Lightweight JavaScript interpreter for embedded systems.
+- [Espruino](https://www.espruino.com/) - JavaScript interpreter designed for microcontrollers like ESP8266/ESP32.
+- [Jerryscript](https://github.com/jerryscript-project/jerryscript) - Ultra-lightweight JavaScript engine for IoT devices.
+- [MuJS](https://github.com/ccxvii/mujs) - Minimal JavaScript interpreter with no dependencies.
+
+*List of Javascript parsers*
+
+- [Acorn](https://github.com/acornjs/acorn) - A lightweight ECMAScript parser that supports the latest ES standard.
+- [Cherow](https://github.com/cherow/cherow) - A fast and spec-compliant ECMAScript parser.
+- [Esprima](https://esprima.org/) - A widely used ECMAScript parser that generates ASTs.
+- [Seafox](https://github.com/bathos/seafox) - A minimal JavaScript parser with ES2020 support.
+- [Tree-sitter JavaScript](https://github.com/tree-sitter/tree-sitter-javascript) - Incremental JavaScript parser, used in LSP and syntax analysis.
+
+*List of Javascript syntax libraries*
+
+- [AST Explorer](https://astexplorer.net/) - An online tool to visualize JavaScript ASTs.
+- [Escodegen](https://github.com/estools/escodegen) - Converts JavaScript AST back to source code.
+- [Prettier](https://prettier.io/) - Code formatter that enforces a consistent style.
+- [Recast](https://github.com/benjamn/recast) - JavaScript AST manipulation library for code transformation.
+- [Terser](https://terser.org/) - Successor to UglifyJS, optimized for ES6+.
+- [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript minifier, optimizer, and obfuscator.
+
+*List of Javascript debuggers*
+
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools) - Built-in Chrome debugging tools with breakpoints and performance analysis.
+- [Firefox DevTools](https://firefox-source-docs.mozilla.org/devtools/) - Firefox’s debugging tools, similar to Chrome DevTools.
+- [ndb](https://github.com/GoogleChromeLabs/ndb) - Enhanced Node.js debugger based on Chrome DevTools.
+- [Node.js Inspector](https://github.com/node-inspector/node-inspector) - `node --inspect` for debugging Node.js with Chrome DevTools.
+
+*List of JavaScript Variants*
+
+- [CoffeeScript](https://coffeescript.org/) - A syntactic sugar layer over JavaScript, compiles to JS.
+- [Flow](https://flow.org/) - A static type checker by Meta, similar to TypeScript but with optional typing.
+- [JScript](https://en.wikipedia.org/wiki/JScript) - A deprecated JavaScript variant from Microsoft for older Internet Explorer versions.
+- [LiveScript](http://livescript.net/) - A functional programming variant of CoffeeScript with pattern matching.
 
 ## Lisp
 
