@@ -3,7 +3,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 
 ## Contents
 
-[C/C++](#cc) · [Javascript](#javascript) · [Lisp](#lisp) · [Python](#python) · [Rust](#rust) · [Solidity](#solidity) · [Typescript](#typescript)
+[C/C++](#cc) · [Golang](#golang) · [Javascript](#javascript) · [Lisp](#lisp) · [Python](#python) · [Rust](#rust) · [Solidity](#solidity) · [Typescript](#typescript)
 
 ##  C/C++
 
@@ -51,6 +51,51 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [Metashell](https://metashell.readthedocs.org/) - An interactive template metaprogramming shell which includes the MDB metadebugger.
 - [Valgrind](http://valgrind.org/) - A tool for memory debugging, memory leak detection, and profiling.
 - [x64dbg](http://x64dbg.com/) - An open-source x64/x32 debugger for windows.
+
+## Golang
+
+*List of Golang compilers*
+
+- [Go Compiler](https://github.com/golang/go) - The official Go compiler, supports AOT compilation, based on Plan 9 assembly and partially on LLVM.
+- [llgo](https://github.com/go-llvm/llgo) - An older LLVM-based compiler for Go, now discontinued, but of historical value.
+- [TinyGo](https://github.com/tinygo-org/tinygo) - A lightweight Go compiler based on LLVM, suitable for embedded systems and WebAssembly.
+
+*Tools for parsing Go code and generating the abstract syntax tree (AST)*
+
+- [antlr4-go](https://github.com/antlr/antlr4/tree/master/runtime/Go) - The Go runtime for ANTLR, can be used to parse various languages, including Go.
+- [go/ast](https://pkg.go.dev/go/ast) - Go's standard library for AST parsing, often used in conjunction with `go/parser`.
+- [go/parser](https://pkg.go.dev/go/parser) - The official Go parsing library, parses Go code and generates an AST.
+- [golangci-lint](https://github.com/golangci/golangci-lint) - A linter that uses multiple Go parsers to perform static analysis and code formatting checks.
+- [gocc](https://github.com/goccmack/gocc) - A Go-written LALR(1) parser generator, similar to YACC/Bison.
+- [goyacc](https://godoc.org/golang.org/x/tools/cmd/goyacc) - YACC Implementation in Go. Standard LALR(1) parser generator.
+- [Peg](https://github.com/pointlander/peg) - A PEG parser generator for Go, supports grammar rule definitions.
+- [tuqqu/go-parser](https://github.com/tuqqu/go-parser) - Golang parser written in PHP.
+
+*Tools for converting Go code to other languages*
+
+- [c4go](https://github.com/Konstantin8105/c4go) - Transpile C code to Go code.
+- [esp32](https://github.com/andygeiss/esp32-transpiler) - Transpile Go into Arduino code.
+- [f4go](https://github.com/Konstantin8105/f4go) - Transpile FORTRAN 77 code to Go code.
+- [Gno](https://github.com/gnolang/gno) - A smart contract language developed in the Cosmos ecosystem, based on Go syntax, supporting persistent computation.
+- [go2hx](https://github.com/go2hx/go2hx) - Compiler from Go to Haxe to Javascript/C++/Java/C#.
+- [GopherJS](https://github.com/gopherjs/gopherjs) - Transpiles Go code to JavaScript, allowing Go code to run in the browser.
+- [Yaegi](https://github.com/traefik/yaegi) - A Go interpreter that allows Go code to be transpiled into executable Go syntax trees.
+
+*Tools for debugging Go code*
+
+- [Delve](https://github.com/go-delve/delve) - The official Go debugger, supports breakpoints, variable inspection, and Goroutine debugging.
+- [gdb-go](https://sourceware.org/gdb/) - GNU Debugger (GDB) support for Go, but with limited functionality; Delve is recommended.
+- [GoTrace](https://pkg.go.dev/runtime/trace) - Go runtime's built-in tracing tool, useful for concurrency analysis and performance tuning.
+- [pprof](https://github.com/google/pprof) - A Go-built performance profiling tool, useful for CPU and memory analysis.
+
+*List of Golang Variants*
+
+- [cell-script](https://github.com/cell-labs/cell-script) - A new designed language for smart-contract programming on UTXO chain.
+- [Gno](https://github.com/gnolang/gno) - A smart contract language in the Cosmos ecosystem, based on Go syntax, supporting persistent computation.
+- [Gop (Goplus)](https://github.com/goplus/gop) - A Go variant focused on engineering computation, with Python-like dynamic features and meta programming.
+- [Odin](https://github.com/odin-lang/Odin) - A systems programming language influenced by Go, similar to Go + Rust.
+- [Vlang](https://github.com/vlang/v) - A language with Go-like syntax but more concise, faster compilation speed, and memory safety mechanisms.
+- [Wa](https://github.com/wa-lang/wa/) - A general-purpose programming language designed for for WebAssembly.
 
 ## JavaScript
 
@@ -109,6 +154,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [Flow](https://flow.org/) - A static type checker by Meta, similar to TypeScript but with optional typing.
 - [JScript](https://en.wikipedia.org/wiki/JScript) - A deprecated JavaScript variant from Microsoft for older Internet Explorer versions.
 - [LiveScript](http://livescript.net/) - A functional programming variant of CoffeeScript with pattern matching.
+- [Nasal-Interpreter](https://github.com/ValKmjolnir/Nasal-Interpreter) - Nasal is an ECMAscript-like language.
 
 ## Lisp
 
@@ -150,6 +196,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 
 - [Arc](http://arclanguage.org/) - A Lisp dialect developed by Paul Graham, focused on simplicity and flexibility.
 - [AutoLISP](https://www.autodesk.com/developer-network/platform-technologies/autolisp) - A Lisp dialect integrated into AutoCAD for automating drawing tasks.
+- [Calcit](https://github.com/calcit-lang/calcit) - Indentation-based ClojureScript dialect in Rust and compiling to JavaScript ES Modules.
 - [Carp](https://github.com/carp-lang/Carp) - A statically typed Lisp for system programming, compiles to native code via AOT.
 - [Clarity](https://github.com/clarity-lang) - A Lisp-like smart contract language for Stacks blockchain.
 - [EuLisp](http://eulisp.org/) - A European Lisp dialect aimed at unifying features of Common Lisp and Scheme.
