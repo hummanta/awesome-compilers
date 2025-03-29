@@ -308,6 +308,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 *Other dialects and variants*
 
 - [MoonBit](https://www.moonbitlang.com/) - An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.
+- [Noir](https://github.com/noir-lang/noir) - A domain specific language for zero knowledge proofs.
 
 ## Solidity
 
