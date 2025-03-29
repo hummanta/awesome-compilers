@@ -305,6 +305,10 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [c2rust](https://github.com/immunant/c2rust) - C to Rust translator and cross checker built atop Clang/LLVM.
 - [Corrode](https://github.com/jameysharp/corrode) - A C to Rust translator written in Haskell.
 
+*Other dialects and variants*
+
+- [MoonBit](https://www.moonbitlang.com/) - An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.
+
 ## Solidity
 
 - [aderyn](https://github.com/Cyfrin/aderyn) - Rust-based solidity smart contract static analyzer designed to help find vulnerabilities in Solidity code bases.
