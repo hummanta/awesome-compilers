@@ -307,6 +307,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 
 *Other dialects and variants*
 
+- [Faber](https://github.com/faberlang/faber) - Experimental type-first language designed to be written by language models, with a compiler written in Rust that emits C, Rust, Go, TypeScript and other targets ([website](https://faberlang.dev)).
 - [MoonBit](https://www.moonbitlang.com/) - An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.
 - [Noir](https://github.com/noir-lang/noir) - A domain specific language for zero knowledge proofs.
 - [SEMAPRAX](https://github.com/wavect/semaprax) - Experimental agent-native systems programming language with stable semantic identity and bounded native and WebAssembly compiler lanes ([website](https://wavect.io/semaprax/)).
