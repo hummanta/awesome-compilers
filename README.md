@@ -320,6 +320,7 @@ An opinionated list of awesome compiler frameworks, libraries, software and reso
 - [ethdebug](https://github.com/ethdebug/format) - A standard debugging data format for smart contracts on Ethereum-compatible networks.
 - [evmdis](https://github.com/Arachnid/evmdis) - EVM Disassembler that performs static analysis on the bytecode to provide a higher level of abstraction than raw EVM operations.
 - [ocaml-solidity](https://github.com/OCamlPro/ocaml-solidity) - Ocaml-solidity provides a Solidity parser and typechecker.
+- [oksolc](https://github.com/okcontract/oksolc) - Solidity compiler written in Zig that targets byte-for-byte compatibility with solc 0.8.36 to 0.8.39 on the optimized via-IR path.
 - [pyrometer](https://github.com/nascentxyz/pyrometer) - A tool for analyzing the security and parameters of a solidity smart contract.
 - [Remix](https://remix.ethereum.org) - Online realtime compiler and runtime.
 - [revive](https://github.com/paritytech/revive) - Solidity compiler and YUL recompiler to LLVM, targetting RISC-V on PolkaVM.
